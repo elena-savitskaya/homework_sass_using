@@ -1,0 +1,69 @@
+.section_main {
+    padding: 90px 0 150px;
+
+    &_wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 250px;
+        max-width: 1290px;
+
+        &_info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            column-gap: 138px;
+
+
+            &_text {   
+                display: inline-flex;
+                flex-direction: column;
+                row-gap: 30px;
+                max-width: 520px;
+                    
+                    &_title {
+                        font-weight: 600;
+                        font-size: 50px;
+                        line-height: 60px;
+                        max-width: 493px;
+                    }
+
+                    &_paragraph {
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 30px;
+                    }
+                    
+                    &_button {
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 30px;
+                        color: #000;
+                                    
+                        &:hover {
+                        color: #ff0000;
+                        }
+                    }
+            }
+        
+            &_image {
+                max-width: 632px;         
+            }
+        }
+    }
+}
+
+.width_one {
+    max-width: 491px;
+}
+
+.width_two {
+    max-width: 450px;
+}
+
+
+
+
+
+

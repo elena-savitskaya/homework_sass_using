@@ -1,0 +1,100 @@
+.section_navs {
+    padding-top: 92px;
+    
+    &_wrapper {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 140px;
+    padding-bottom: 95px;
+    border-bottom: 1px solid black;
+    
+        &_info {
+            display: flex;
+            flex-direction: column;
+            max-width: 300px;
+        }
+
+        &_columns {
+            display: inline-flex;
+            justify-content: space-between;
+            max-width: 828px;
+            gap: 100px;
+        }
+    }
+    
+}
+
+.section_navs_wrapper_info {
+
+    &_title {
+        margin-bottom: 28px;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    &_image {
+        margin-bottom: 24px;
+
+        &_bike {
+            max-width: 300px;
+        }
+        
+        &_logo {
+            margin-top: 38px;
+            max-width: 80px;
+        }
+    }
+
+    &_text {
+        max-width: 290px;
+        margin-bottom: 15px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    &_read {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000000; 
+        
+        &:hover {
+        color: #ff0000;
+        }
+    }
+}
+
+.section_navs_column {
+
+    &_title {
+        margin-bottom: 21px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    
+    &_lists {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        list-style-type: none;
+
+        &_list {
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 15px;
+            color: #000000;
+        
+            &:hover {
+                color: #1b13f6;
+            }
+        }
+        
+    }
+
+}
+
+

@@ -1,0 +1,63 @@
+.section_manage {
+    padding: 80px 0 84px;
+    background-color: #DABC98;
+    
+    &_wrapper {
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        &_image {
+            margin-right: 67px;
+            max-width: 176px;
+        }
+            
+        &_title {
+            margin-right: 50px;
+            max-width: 380px;
+            font-weight: 600;
+            font-size: 35px;
+            line-height: 50px;
+        }
+        
+        &_rectangle {
+            margin-right: 50px;
+            height: 168px;
+            border-left: 1px solid #000;
+        }
+        
+        &_logo {
+            display: inline-flex;
+            gap: 50px;
+        }
+    }    
+}
+
+.logo-stars {
+    max-width: 150px;
+
+    &_title {
+        max-width: 150px;
+
+        &:hover {
+            opacity: 50%;
+        }
+    }
+    
+    &_stars {
+        margin-top: 20px;
+        display: inline-flex;
+        gap: 6.5px;
+    }
+    
+    &_text {
+        margin-top: 14px;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0.75px;
+    }
+    
+}
+

@@ -1,0 +1,43 @@
+.section_quote {
+    padding: 63px 0 105px;
+    background-color: #C9E8F2;
+}
+
+    .quote_wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 59px;  
+        
+        &_text {
+            max-width: 880px;
+
+            &_paragraph {
+                margin-bottom: 23px;
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 40px;
+            }
+            
+            &_name {
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+            }
+            
+            &_logo {
+                max-width: 115px;
+            }
+        }
+
+        &_foto {
+            max-width: 310px;
+            max-height: 310px;
+        }
+    }
+
+
+
+
+
+

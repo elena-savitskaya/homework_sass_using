@@ -1,0 +1,33 @@
+.footer {
+    padding: 48px 0;
+    
+    &_wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        
+        &_logo {
+            max-width: 90px;
+            margin-right: 14px;
+        }
+
+        &_text {
+        max-width: 300px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+            
+            &:last-of-type {
+                margin-left: auto;
+            }
+        }
+    }
+}    
+
+
+
+
+
+
+

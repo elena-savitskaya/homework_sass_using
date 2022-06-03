@@ -1,0 +1,447 @@
+
+@media screen and (max-width: 1024px) {
+    
+    .container {
+        max-width: 750px;
+    }
+    
+    .header {
+        padding: 25px 50px;
+
+        &_wrapper {
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+    }
+    
+  
+    .header_nav {
+        max-width: 100%;
+        gap: 35px; 
+        
+        &_logo {
+        max-width: 100%;
+        }
+    }
+    
+    
+    .section_start {
+        padding: 60px 0 60px;
+
+    
+        &_wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            padding-left: 0px;
+
+            &_text {
+                max-width: 100%; 
+                
+                &_title {
+                    margin-bottom: 20px;
+                    font-size: 45px;
+                    line-height: 50px;
+                }
+
+                &_padagpaph {
+                    margin-bottom: 20px;
+                }
+            }
+
+            &_image {
+                max-width: 100%;
+                padding-right: 0px;
+            }
+            
+        }
+    }
+    
+      
+    .section_links {
+        padding: 68px 0 64px; 
+        
+        &_wrapper {
+        gap: 60px;
+            &_title {
+                padding: 0 35px;
+                max-width: 100%;
+                font-size: 45px;
+                line-height: 50px;
+            } 
+                
+            &_links {
+                flex-wrap: wrap;
+                justify-content: space-between;
+                gap: 85px;
+            }
+
+        }
+    }
+    
+        
+    .section_main {
+        padding: 70px 0 70px;
+        
+        &_wrapper {
+            gap: 100px;
+            max-width: 100%; 
+        
+            &_info {
+                column-gap: 100px;
+                
+                &_text {   
+                    max-width: 320px;
+                }
+
+                &_image {
+                    max-width: 300px;
+                }
+            }
+        }
+    }
+    
+    
+   .section_main_wrapper_info_text_title {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    
+    
+    .section_center {
+        padding: 60px 0 60px;  
+        
+        &_wrapper {
+            margin-left: 0px;
+            margin-top: 49px;
+            max-width: 100%;
+            gap: 55px;
+            justify-content: center; 
+            
+            &_card {
+                max-width: 100%;
+            }
+        }
+    }
+    
+   
+      
+    .section_boost {
+        padding: 75px 0 85px; 
+    }
+    .boost_wrapper {
+        flex-wrap: wrap;  
+        
+            &_card {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            max-width: 100%; 
+            
+                &_image {
+                    max-width: 100%;
+                }
+    
+                &_text {
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                }
+                
+                &_link {
+                    margin-bottom: 30px;
+                }
+            }
+    
+        }
+    
+    
+    
+    .section_quote {
+        padding: 50px 0 55px;
+    }
+        
+        .quote_wrapper {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 35px; 
+            
+            &_text {
+                text-align: center;
+                max-width: 100%;
+
+                &_paragraph {
+                    font-size: 25px;
+                    line-height: 35px;
+                }
+                
+                &_logo {
+                    max-width: 100%;
+                    display: inline-flex;
+                    text-align: center;
+                }
+            }
+        }
+    
+    
+    
+    .section_manage {
+        padding: 60px 0 64px;   
+        
+        &_wrapper {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+
+            &_image {
+                margin-right: 0px;
+                max-width: 100%;
+            }
+        
+            &_title {
+                margin-right: 0px;
+                max-width: 350px;
+                font-size: 30px;
+                line-height: 40px;
+            }
+        
+            &_rectangle {
+                margin-right: 0px;
+            }
+        
+        }
+    }
+        
+ 
+    .section_integrate {
+        padding: 100px 0; 
+        
+        &_wrapper {
+            flex-wrap: wrap;
+
+            &_title {
+                max-width: 100%;
+                font-size: 45px;
+                line-height: 55px;
+            }
+            
+            &_pharagraph {
+                max-width: 100%;
+            }
+            
+            &_image {
+                max-width: 100%;
+                margin-bottom: 32px;
+            }
+        }
+    }
+    
+    .section_try {
+        padding: 79px 0 61px;  
+        
+        &_wrapper {
+        flex-wrap: wrap;  
+        
+            &_title {
+                max-width: 550px;
+            }
+    
+            &_pharagraph {
+                max-width: 100%;
+                padding-bottom: 34px;
+                font-size: 20px;
+            }
+        }
+    }
+  
+    .section_navs {
+        padding-top: 72px;  
+        
+        &_wrapper {
+            gap: 70px;
+            padding-bottom: 55px; 
+            flex-wrap: wrap;
+        
+            &_info {
+                flex-wrap: wrap;
+                max-width: 200px;
+
+                &_image {
+
+                    &_bike {
+                        max-width: 200px;
+                    }
+                    
+                    &_logo {
+                        max-width: 100%;
+                    }
+                }
+
+                 
+                &_text {
+                max-width: 100%;
+                }
+    
+            }
+            
+            &_columns {
+                display: flex;
+                flex-wrap: wrap;
+                max-width: 100%;
+                column-gap: 50px;
+                justify-content: flex-start;
+            }
+            
+        } 
+    }
+    
+    
+    .footer {
+        padding: 48px 0; 
+        
+        &_wrapper {
+            flex-wrap: wrap;
+            gap: 45px;  
+            
+            &_logo {
+                max-width: 100%;
+                margin-right: 0px;
+            }
+            
+            &_text {
+                max-width: 100%;
+                
+                &:first-of-type {
+                    margin-right: 0px;
+                }
+            }
+    
+        }
+    }
+}
+    
+@media screen and (max-width: 767px) {
+    
+.container {
+    max-width: 100%;
+}
+        
+.header_wrapper {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+        
+.header_nav_links {
+    display: none;
+}
+    
+.header_buttons {
+    display: none;
+}
+    
+.burger-menu {
+    display: inline-flex;
+    margin-left: auto;
+    width: 50px;
+    height: 50px;
+}
+    
+.section_start_wrapper {
+    text-align: center; 
+        
+    &_text {
+        text-align: center;
+    }
+      
+}
+    
+.section_try_wrapper_title {
+    max-width: 250px;
+    font-size: 45px;
+    line-height: 55px;
+}
+
+     
+.section_links_wrapper_links {
+    justify-content: center;
+    gap: 55px;
+}
+    
+.section_main_wrapper {
+    gap: 50px;
+}
+    
+.section_main_wrapper_info {
+    flex-wrap: wrap;
+    column-gap: 50px;  
+        
+    &_text {   
+        max-width: 100%;
+    } 
+        
+    &_image {
+        max-width: 100%;
+        order: 2;
+    }
+}
+          
+.width_one {
+    max-width: 100%;
+}
+    
+.width_two {
+    max-width: 100%;
+}
+       
+    
+.section_main_wrapper_info_text_button {
+    margin-bottom: 30px;
+}
+    
+.boost_card {
+    gap: 20px;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+        
+        &_title { 
+            text-align: center;
+            margin-top: 30px;    
+        }
+    
+        &_text {
+            text-align: center;
+        }
+    
+}
+    
+.section_manage_wrapper {
+     
+    &_rectangle {
+        display: none;
+    }
+    
+    &_title  {
+        text-align: center;
+        max-width: 250px;
+    }
+    
+    &_info {
+        max-width: 100%;
+    }
+}
+
+.section_navs_wrapper_info_image_bike {
+    max-width: 150px;
+}
+    
+.section_navs_wrapper_columns {
+     display: none;
+}
+    
+.footer-wrapper {
+        gap: 25px;
+}
+
+}

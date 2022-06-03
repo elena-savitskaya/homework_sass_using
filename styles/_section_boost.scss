@@ -1,0 +1,59 @@
+.section_boost {
+    padding: 154px 0 187px;
+
+    &_title {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    }
+}
+
+.boost_wrapper {
+    margin-top: 75px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: center;
+
+    &_card {
+        max-width: 407px;
+
+        &_image {
+            max-width: 179px;
+        }
+        
+        &_title {
+            margin-top: 49px;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 40px;
+        }
+        
+        &_text {
+            margin-top: 33px;
+            margin-bottom: 25px;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+        }
+        
+        &_link {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            text-decoration-line: underline;
+            color: #000000;
+        
+            &:hover {
+                color: #ff0000;
+            }
+        }
+
+
+    }
+}
+
+
+
+
